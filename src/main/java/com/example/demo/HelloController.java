@@ -8,11 +8,16 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "AKS Spring Boot is working successfully 🚀";
+        return "AKS IS WORKING 🚀";
     }
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from AKS!";
+        return "HELLO FROM AKS";
+    }
+
+    @GetMapping("/test")
+    public String test() {
+        return "TEST ENDPOINT WORKING";
     }
 }
