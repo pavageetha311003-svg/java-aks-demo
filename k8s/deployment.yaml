@@ -19,8 +19,6 @@ spec:
     spec:
       containers:
       - name: java-app
-
         image: demoapp12.azurecr.io/javaapp:v2
-
         ports:
         - containerPort: 8080
